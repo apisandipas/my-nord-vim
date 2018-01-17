@@ -23,22 +23,22 @@ let s:nord3_gui = "#4C566A"
 let s:nord4_gui = "#D8DEE9"
 let s:nord5_gui = "#E5E9F0"
 let s:nord6_gui = "#ECEFF4"
-let s:nord7_gui = "#8FBCBB"
-let s:nord8_gui = "#88C0D0"
-let s:nord9_gui = "#81A1C1"
-let s:nord10_gui = "#5E81AC"
+let s:nord8_gui = "#81A1C1"
+let s:nord15_gui = "#5E81AC"
+let s:nord14_gui = "#8FBCBB"
+let s:nord9_gui = "#B48EAD"
 let s:nord11_gui = "#BF616A"
-let s:nord12_gui = "#D08770"
-let s:nord13_gui = "#EBCB8B"
-let s:nord14_gui = "#A3BE8C"
-let s:nord15_gui = "#B48EAD"
+let s:nord13_gui = "#D08770"
+let s:nord7_gui = "#EBCB8B"
+let s:nord12_gui = "#A3BE8C"
+let s:nord10_gui = "#88C0D0"
 
 let s:nord1_term = "0"
 let s:nord3_term = "8"
 let s:nord5_term = "7"
 let s:nord6_term = "15"
 let s:nord7_term = "14"
-let s:nord8_term = "6"
+let s:nord8_term = "2"
 let s:nord9_term = "4"
 let s:nord10_term = "12"
 let s:nord11_term = "1"
@@ -69,6 +69,10 @@ let s:nord3_gui_brightened = [
   \ "#75829c",
   \ "#78859e",
   \ "#7b88a1",
+  \ "#8894aa",
+  \ "#97a1b5",
+  \ "#a5afc0",
+  \ "#b4bcca"
 \ ]
 
 if !exists("g:nord_italic")
